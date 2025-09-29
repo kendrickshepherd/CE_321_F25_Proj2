@@ -21,10 +21,6 @@ jobs:
         if: ${{ always() }}
         run: |
           python3 Structure_Operations_Test.py
-      - name: Test Geometry Operations Part1 with unittest
-        if: ${{ always() }}
-        run: |
-          python3 Geometry_Operations_Tests_Part1.py
       - name: Test Complete Geometry Operations with unittest
         if: ${{ always() }}
         run: |
