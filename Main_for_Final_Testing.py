@@ -10,14 +10,14 @@ import sys
 
 from ImportCSVData import LoadData
 
-# from Method_of_Joints import IterateUsingMethodOfJoints
-# from Structure_Operations import StaticallyDeterminate
-# from Structure_Operations import ComputeReactions
+from Method_of_Joints import IterateUsingMethodOfJoints
+from Structure_Operations import StaticallyDeterminate
+from Structure_Operations import ComputeReactions
 
 
-from Master.Method_of_Joints import IterateUsingMethodOfJoints
-from Master.Structure_Operations import StaticallyDeterminate
-from Master.Structure_Operations import ComputeReactions
+# from Master.Method_of_Joints import IterateUsingMethodOfJoints
+# from Master.Structure_Operations import StaticallyDeterminate
+# from Master.Structure_Operations import ComputeReactions
 
 # perform the method of joints on a statically
 # determinate truss

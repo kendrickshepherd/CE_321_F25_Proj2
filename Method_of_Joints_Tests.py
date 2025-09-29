@@ -7,8 +7,8 @@ Created on Thu Feb  6 12:21:14 2025
 """
 
 import Main_for_Final_Testing as Main
-import Master.Method_of_Joints as moj
-# import Method_of_Joints as moj
+# import Master.Method_of_Joints as moj
+import Method_of_Joints as moj
 
 import unittest
 
